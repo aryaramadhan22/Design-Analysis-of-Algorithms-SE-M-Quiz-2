@@ -131,7 +131,8 @@ function dijkstraSteps(adj, start, end) {
 ```
 
 ## Output
-    ![alt text](<Screenshot 2025-11-19 164103.png>)
+    <img width="1253" height="861" alt="Screenshot 2025-11-19 164103" src="https://github.com/user-attachments/assets/fd989ce6-409e-4d10-8fe9-4d4dfdca007f" />
+
 
 ## Getting Started
 

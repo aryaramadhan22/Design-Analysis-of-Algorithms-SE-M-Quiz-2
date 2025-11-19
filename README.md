@@ -131,7 +131,7 @@ function dijkstraSteps(adj, start, end) {
 ```
 
 ## Output
-    <img width="1253" height="861" alt="Screenshot 2025-11-19 164103" src="https://github.com/user-attachments/assets/fd989ce6-409e-4d10-8fe9-4d4dfdca007f" />
+    [<img width="1253" height="861" alt="Screenshot 2025-11-19 164103" src="https://github.com/user-attachments/assets/fd989ce6-409e-4d10-8fe9-4d4dfdca007f" />](https://github.com/aryaramadhan22/Design-Analysis-of-Algorithms-SE-M-Quiz-2/blob/main/Screenshot%202025-11-19%20164103.png)
 
 
 ## Getting Started

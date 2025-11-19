@@ -132,9 +132,9 @@ body {
     margin-top: 1rem;
 }
 
-/* Spinner */
+Spinner
 .spinner-border-sm {
-    width: 1rem;
+    width: 10rem;
     height: 1rem;
 }
 

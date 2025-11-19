@@ -138,7 +138,7 @@ const drawNode=(id,node,step,sx,sy)=>{
 let currentStep=null;
 
 function draw(){
-    // guard if ctx missing (just in case)
+    // guard if ctx missing
     if(!ctx) return;
     ctx.clearRect(0,0,canvas.width,canvas.height);
     const sx = canvas.width/800, sy = canvas.height/500;
@@ -150,7 +150,7 @@ function draw(){
 draw();
 
 // ================= ANIMATION ======================
-let steps=[],stepIndex=0,isRunning=false,timeout=null;
+let steps=[], stepIndex=0, isRunning=false, timeout=null;
 
 const startBtn=document.getElementById("startBtn");
 const resetBtn=document.getElementById("resetBtn");
@@ -169,8 +169,8 @@ function updateStatus(s){
             <div class="mt-2 small text-muted">Step ${stepIndex+1} / ${steps.length}</div>
         </div>
     `;
-    const spin = isRunning ? `
-        <div class="d-flex align-items-center text-primary">
+    const spin = (isRunning && s.type !== "complete") ? `
+        <div class="d-flex align-items-center text-primary mt-2">
             <div class="spinner-border spinner-border-sm me-2" role="status"></div> Proses...
         </div>` : "";
 
